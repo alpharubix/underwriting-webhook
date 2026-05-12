@@ -1,6 +1,6 @@
 import "dotenv/config"
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 8080
 import cors from 'cors'
 import express from 'express'
 import { connectDB } from './connectDB.js'
