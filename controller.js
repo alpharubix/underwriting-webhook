@@ -1,4 +1,4 @@
-import { GstStatements } from "./models";
+import { GstStatements } from "./models.js";
 export async function saveWebhookResponse(req, res) {
   let response_body = req.body;
   if (response_body) {
